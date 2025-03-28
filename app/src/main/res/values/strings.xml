@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EconoFuel</string>
+    <string name="valor_da_gasolina_r">Valor da Gasolina (R$)</string>
+    <string name="valor_do_lcool_r">Valor do Álcool (R$)</string>
+    <string name="calcular_melhor_combust_vel">Calcular Melhor Combustível</string>
+    <string name="resultado">Resultado:</string>
+    <string name="buscar">Buscar</string>
+    <string name="consumo_lcool_km_l">Consumo Álcool (km/l)</string>
+    <string name="buscar_first">Buscar</string>
+    <string name="consumo_gasolina_km_l">Consumo Gasolina (km/l)</string>
+    <string name="calcular_melhor_combust_vel2">Calcular Melhor Combustível</string>
+    <string name="calcular_melhor_combust">Calcular Melhor Combustível</string>
+    <string name="descubra_qual_combust_vel_compensa_mais_para_abastecer_seu_ve_culo">Descubra qual combustível compensa mais para abastecer seu veículo.</string>
+    <string name="fuelcalc_qual_o_melhor_combust_vel">FuelCalc - Qual o melhor combustível?</string>
+    <string name="logo">Logo</string>
+    <string name="escolha_o_combust_vel">Escolha o Combustível</string>
+</resources>

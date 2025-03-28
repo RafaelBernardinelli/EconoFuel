@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores principais -->
+    <color name="colorBackground">#F5F5F5</color> <!-- Fundo claro -->
+    <color name="colorPrimary">#00796B</color> <!-- Cor principal para destaque -->
+    <color name="colorSecondary">#004D40</color> <!-- Tom mais escuro da cor principal -->
+    <color name="colorAccent">#009688</color> <!-- Cor de destaque -->
+
+    <!-- Cores de texto -->
+    <color name="colorTextPrimary">#333333</color> <!-- Texto principal (títulos) -->
+    <color name="colorTextSecondary">#666666</color> <!-- Texto secundário (descrição) -->
+    <color name="colorTextButton">#FFFFFF</color> <!-- Texto do botão (branco) -->
+
+    <!-- Cores adicionais -->
+    <color name="colorButtonBackground">#00796B</color> <!-- Cor de fundo do botão -->
+    <color name="colorButtonPressed">#004D40</color> <!-- Cor do botão quando pressionado -->
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
