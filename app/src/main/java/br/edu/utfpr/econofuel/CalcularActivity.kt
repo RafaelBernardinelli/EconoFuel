@@ -38,7 +38,6 @@ class CalcularActivity : AppCompatActivity() {
     }
 
     private fun calcularMelhorCombustivel() {
-        // Verificando se todos os campos estão preenchidos
         val consumoGasolina = etFirstConsume.text.toString()
         val consumoAlcool = etFieldSecoundConsume.text.toString()
         val valorGasolina = etValorGasolina.text.toString()
@@ -49,17 +48,14 @@ class CalcularActivity : AppCompatActivity() {
             return
         }
 
-        // Convertendo para números
         val consumoGasolinaDouble = consumoGasolina.toDouble()
         val consumoAlcoolDouble = consumoAlcool.toDouble()
         val valorGasolinaDouble = valorGasolina.toDouble()
         val valorAlcoolDouble = valorAlcool.toDouble()
 
-        // Calculando o custo por km para cada combustível
         val custoGasolinaPorKm = valorGasolinaDouble / consumoGasolinaDouble
         val custoAlcoolPorKm = valorAlcoolDouble / consumoAlcoolDouble
 
-        // Comparando os custos e exibindo o resultado
         val melhorCombustivel = if (custoGasolinaPorKm < custoAlcoolPorKm) {
             "Melhor combustível: Gasolina (Custo por km: R$ ${"%.2f".format(custoGasolinaPorKm)})"
         } else {
